@@ -1,6 +1,7 @@
+# Description
 Tom's website is to help him get a cool new website to promote the talented musician Tom Hagerman.
 
-**Server Info**
+# Server Info
 the node server is running until we make a switch to LAMP later
 
 I installed pm2 (https://www.npmjs.com/package/pm2) to keep the server running.
