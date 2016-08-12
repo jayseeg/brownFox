@@ -18,12 +18,12 @@
       <span class="entypo-s"></span>Tom Hagerman
     </div>
       <ul>
-        <li><a href="bio.html">About</a></li>
-        <li ><a href="store.html">Store</a>
+        <li><a href="bio.php">About</a></li>
+        <li ><a href="store.php">Store</a>
         </li>
-        <li><a href="shows.html">Shows</a></li>
-        <li><a href="media.html">Media</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="shows.php">Shows</a></li>
+        <li><a href="media.php">Media</a></li>
+        <li><a href="contact.php">Contact</a></li>
         <li><a href="index.html">Home</a></li>
       </ul>
     </nav>  
