@@ -1,0 +1,14 @@
+header {
+  /*(put header styles here)*/
+}
+.logo {
+  /*(put your styles here)*/
+}
+@media screen and (min-device-width: 735px) { 
+ /*(put styles for desktop here)
+  .someExampleClass {
+    (put style rules inside their selector, as usual)
+    (this is just an example, don't actually put the .someExampleClass style in.) :D
+  }*/
+footer{
+}
