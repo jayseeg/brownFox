@@ -47,6 +47,9 @@ if($_POST['formSubmit'] == "Submit")
       </ul>
     </nav>  
   </div>
+  <div class="media-wrapper">
+    
+
 <form action="contact.php" method="post">
 <p> Name: *</p>
 <input type="text" name="contactName" maxlength="50" required/> <br/>
@@ -58,5 +61,6 @@ if($_POST['formSubmit'] == "Submit")
 <textarea type="text" name="message" required></textarea><br/>
 <input type="submit" name="formSubmit"/><br/>
 </form>
+    </div>
 </body>
 </html>
