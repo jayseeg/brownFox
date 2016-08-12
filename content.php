@@ -28,7 +28,8 @@
       </ul>
     </nav>  
   </div>
-    <!-- Add header here-->
+<br/>    
+<!-- Add header here-->
     <div class="media-wrapper">
 	<?php 
 		$array = unserialize(file_get_contents('contentGvIqbi1hPMMDOjsd2OR7fyJHonTh8WtRhvTJsSzuVgdAuDvkOB2a2QwuUPiYFOQosOPPpw4lsAXZrUP1mNNxbRUiI2TZIvjaD1b6bNwdY3fNWniCWwuWryAAB0E8UiqKxwrb65xNQMg10pHMwVyHhKdavuzgpAH5JFdvPyE6BPOsTsNXazyjlhKGVvX3Rfq2ieVvFW3Jg32BM10CfQJP8lswIU689J3e6v8R45aEAy.txt'));
