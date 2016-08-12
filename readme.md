@@ -35,36 +35,38 @@ visit http://173.255.211.63:8080 to see the latest staging deploy
 visit http://173.255.211.63:8081 to see the latest production deploy
 
 # Command line commands
-## get to root directory (do this before anything else to make sure you're in the right place)
+## Starting work on a new Issue
+### get to root directory (do this before anything else to make sure you're in the right place)
 ```
 cd ~/site/brownFox
 ```
-## status
+### status
 ```
 git status
 ```
-## get into staging branch
+### get into staging branch
 ```
 git checkout staging
 ```
-## get latest version of staging (always do this before making a new branch)
+### get latest version of staging (always do this before making a new branch)
 ```
 git pull
 ```
-## make a new branch
+### make a new branch
 ```
 git checkout -b {replace this with your username}/{name of new branch}
 ```
-## commit your changes once you're happy with them
+## Finishing work on an Issue
+### commit your changes once you're happy with them
 ```
 git add .
 git commit -am '{put a simle message about what you changed here}'
 ```
-## push your changes to github after you've commited them (don't forget to checkout staging & pull it down from github after finishing this step)
+### push your changes to github after you've commited them (don't forget to checkout staging & pull it down from github after finishing this step)
 ```
 git push origin {your username}/{name of branch}
 ```
-
+### follow steps in Github instructions to submit a PR
 # Github instructions
 Once you've pushed a branch to Github, you need to submit a pull request and assign it to @jayseeg.
 
