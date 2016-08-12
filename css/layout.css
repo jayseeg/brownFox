@@ -1,10 +1,13 @@
+body {
+  width: 100%;
+}
 header {
   /*(put header styles here)*/
 }
 .logo {
   /*(put your styles here)*/
 }
-@media screen and (min-device-width: 735px) { 
+@media screen and (min-device-width: 735px) {
  /*(put styles for desktop here)
   .someExampleClass {
     (put style rules inside their selector, as usual)
