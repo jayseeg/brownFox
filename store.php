@@ -31,6 +31,7 @@
 <br/>
                 <div class="media-wrapper">
     <div class="store-items"><br/>
+<p>
   <a href="http://www.cdbaby.com/cd/tomhagerman" class="store-item" target="_blank">
     <img src="/img/download.jpg" class="store-image" /><br/>
     <span class="store-item-title">Idle Creatures</span><br/>
@@ -51,6 +52,7 @@
     <img src="/img/3discBundle.jpg" class="store-image" /><br/>
     <span class="store-item-title">ITunes</span><br/>
   </a>
+</p>
 <br/>
 </div>
   </div>
