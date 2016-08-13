@@ -35,7 +35,7 @@ if($_POST['formSubmit'] == "Submit")
     <nav role="navigation">
       <span class="entypo-menu" id="toggle-menu"></span>
     <div class="logo">
-      <span class="entypo-s"></span><a id="HOMELINK" href="index.html">Tom Hagerman</a>
+      <span class="entypo-s"></span><a style="display:inline-flex;" id="HOMELINK" href="index.html">Tom Hagerman</a>
     </div>
       <ul>
         <li><a href="bio.php">About</a></li>
