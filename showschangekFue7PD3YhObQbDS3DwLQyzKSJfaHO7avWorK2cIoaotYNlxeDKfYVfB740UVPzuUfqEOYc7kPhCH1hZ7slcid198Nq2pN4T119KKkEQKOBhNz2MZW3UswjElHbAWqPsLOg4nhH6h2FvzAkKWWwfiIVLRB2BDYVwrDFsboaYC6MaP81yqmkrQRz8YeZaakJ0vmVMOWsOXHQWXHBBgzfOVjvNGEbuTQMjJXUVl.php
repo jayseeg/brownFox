@@ -3,7 +3,7 @@ $newarray = unserialize(file_get_contents('showsEcGCD2JbBWBwaa3t30CGOq523lKm3YcZ
 if($_POST['formSubmit'] == "Submit")
 {
 	for ($j = $newarray->getSize()-1; $j >=0; $j--) {
-		$newarray[$j] =htmlentities($_POST["$j"]);
+		$newarray[$j] =htmlentities(nl2br($_POST["$j"]));
 	}
 	file_put_contents('showsEcGCD2JbBWBwaa3t30CGOq523lKm3YcZ5VsL8T2Gumc2sqtf4H3YlBtCjJVYZjcwOfgXEqVwUuwfvn6prnWBlEGlHJTUeuwu9DjEFU9lzx6Mdb9Tn8AtkNv8LKsu3hiL7OdB9Q7qVX09iL893Vfe8D5pLegz6rZqCIfktY7cNMOE22izNa4VNQXath4awAiZCRxv35vGEyLLSiLtKORjEln9yRs6w97g2arTUzmI7Ul.txt', serialize($newarray));
 	header("Location: /staging/show.php");
