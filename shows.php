@@ -37,7 +37,7 @@ $i=$array->getSize()-1;
 while($i>=0) {
 if($array[$i]) {
 ?>
-<p><b><?=html_entity_decode($array[$i])?></b><br/><?=html_entity_decode($array[$i-1])?><br/><a href="<?=html_entity_decode($array[$i-2])?>">Purchase Tickets Here! </a></p><br/>
+<p><strong style="font-weight: bold;font-size: 125%; margin:.25em;line-height:125%;"><?=html_entity_decode($array[$i])?></strong><br/><?=html_entity_decode($array[$i-1])?><br/><button onclick="location.href='<?=html_entity_decode($array[$i-2])?>'">Purchase Tickets Here! </button></p><br/>
 <?php
 }
 $i-=3;
