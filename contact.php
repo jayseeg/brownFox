@@ -59,7 +59,7 @@ if($_POST['formSubmit'] == "Submit")
 <p> Subject:* </p>
 <input type="text" name="subject" maxlength="50" placeholder="Subject" required/><br/><br/>
 <p> Message:* </p>
-<textarea type="text" name="message" cols="40" rows="6" placeholder="Your Message" required></textarea><br/>
+<textarea type="text" name="message" cols="42" rows="6" placeholder="Your Message" required></textarea><br/>
 <input type="submit" name="formSubmit"/><br/>
 </form>
     </div>
