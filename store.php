@@ -13,7 +13,7 @@
         <div class="container">
   <div class="row">
     <nav role="navigation">
-      <span class="entypo-menu" id="toggle-menu"></span>  
+      <span class="entypo-menu" id="toggle-menu"></span>
     <div class="logo">
       <span class="entypo-s"></span><a href="index.html">Tom Hagerman</a>
     </div>
@@ -26,7 +26,7 @@
         <li><a href="contact.php">Contact</a></li>
         <li><a href="index.html">Home</a></li>
       </ul>
-    </nav>  
+    </nav>
   </div>
 <br/>
                 <div class="media-wrapper">
@@ -54,7 +54,7 @@
 <br/>
 </div>
   </div>
-                <footer>
+                <footer class="media-wrapper">
                         <p class="copyright">&copy; 2016 Tom Hagerman</p>
                 </footer>
                 <!-- Add javascript here -->

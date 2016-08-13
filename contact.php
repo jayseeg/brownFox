@@ -64,7 +64,7 @@ if($_POST['formSubmit'] == "Submit")
 </form>
     </div>
 <br/>
-<footer>
+<footer class="media-wrapper">
       <p class="copyright">&copy; 2016 Tom Hagerman</p>
     </footer>
     <!-- Add javascript here -->
