@@ -6,7 +6,7 @@ if($_POST['formSubmit'] == "Submit")
 		$newarray[$j] =htmlentities(nl2br($_POST["$j"]));
 	}
 	file_put_contents('biokbSJUBLiYIjPl47hqZaryFqG3xgRm8u0iLgE5iJZnzLWcRlCXhE5VCrPrGDxP7DsY2YbjozYQO3uydOP79Alf5qpobtFgAqXr0QIH7SOqSLjeJ8sh14npstV4tclUoxvV6KWRELFTwB07mvikD7GicuB5OJzwkGkt0nQT4ius5KN5Gy2NL0lBRpaIHvnfwVX4x6sPd3S0HgT7BdeGYzuM2ksc0pp80YKjzG3S0yDgZZ0S.txt', serialize($newarray));
-	header("Location: /staging/show.php");
+	header("Location: thankyou.html");
 	exit;
 }
 
