@@ -19,7 +19,7 @@ if($_POST['formSubmit'] == "Submit")
  <html>
  	<head>
 	<meta charset="UTF-8">
- 		<title>Abandon All Hope</title>
+ 		<title>Contact Tom Hagerman</title>
  		<meta name="viewport" content="width=device-width, initial-scale=1">
  		<link rel="stylesheet" href="css/reset.css">
  		<link rel="stylesheet" href="css/main.css">
@@ -34,33 +34,42 @@ if($_POST['formSubmit'] == "Submit")
     <nav role="navigation">
       <span class="entypo-menu" id="toggle-menu"></span>
     <div class="logo">
-      <span class="entypo-s"></span>Tom Hagerman
+      <span class="entypo-s"></span><a id="HOMELINK" href="index.html">Tom Hagerman</a>
     </div>
       <ul>
         <li><a href="bio.php">About</a></li>
         <li ><a href="store.php">Store</a>
         </li>
         <li><a href="shows.php">Shows</a></li>
-        <li><a href="media.php">Media</a></li>
+        <li><a href="content.php">Media</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="index.html">Home</a></li>
       </ul>
     </nav>
   </div>
+<br/>
   <div class="media-wrapper">
 
 
 <form action="contact.php" method="post">
 <p> Name: *</p>
-<input type="text" name="contactName" maxlength="50" required/> <br/>
+<input type="text" name="contactName" maxlength="50" placeholder="Name" required/> <br/><br/>
 <p> Email for Reply: </p>
-<input type="email" name="contactEmail" maxlength="50"/><br/>
+<input type="email" name="contactEmail" maxlength="50" placeholder="Email" /><br/><br/>
 <p> Subject:* </p>
-<input type="text" name="subject" maxlength="50" required/><br/>
+<input type="text" name="subject" maxlength="50" placeholder="Subject" required/><br/><br/>
 <p> Message:* </p>
-<textarea type="text" name="message" cols="40" rows="6" required></textarea><br/>
+<textarea type="text" name="message" cols="42" rows="6" placeholder="Your Message" required></textarea><br/>
 <input type="submit" name="formSubmit"/><br/>
 </form>
     </div>
-</body>
-</html>
+<br/>
+<footer class="media-wrapper">
+      <p class="copyright">&copy; 2016 Tom Hagerman</p>
+    </footer>
+    <!-- Add javascript here -->
+    <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slideshow.js"></script>
+  </body>
+ </html>

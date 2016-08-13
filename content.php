@@ -1,7 +1,7 @@
 <!doctype html>
  <html>
   <head>
-    <title>Abandon All Hope</title>
+    <title>Media By Tom Hagerford</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
@@ -15,14 +15,14 @@
     <nav role="navigation">
       <span class="entypo-menu" id="toggle-menu"></span>  
     <div class="logo">
-      <span class="entypo-s"></span>Tom Hagerman
+      <span class="entypo-s"></span><a href="index.html">Tom Hagerman</a>
     </div>
       <ul>
         <li><a href="bio.php">About</a></li>
         <li ><a href="store.php">Store</a>
         </li>
         <li><a href="shows.php">Shows</a></li>
-        <li><a href="media.php">Media</a></li>
+        <li><a href="content.php">Media</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="index.html">Home</a></li>
       </ul>

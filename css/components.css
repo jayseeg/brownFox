@@ -72,3 +72,10 @@ form p {
 	margin-top: 15px;
 	max-width:290px;
 }
+
+.logo a:hover,
+.logo a:visited,
+.logo a:focus,
+.logo a:active {
+  color:white;
+}
