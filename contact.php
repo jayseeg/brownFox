@@ -32,7 +32,7 @@ if($_POST['formSubmit'] == "Submit")
 <div class="container">
   <div class="row">
     <nav role="navigation">
-      <span class="entypo-menu" id="toggle-menu"></span>  
+      <span class="entypo-menu" id="toggle-menu"></span>
     <div class="logo">
       <span class="entypo-s"></span>Tom Hagerman
     </div>
@@ -48,7 +48,7 @@ if($_POST['formSubmit'] == "Submit")
     </nav>
   </div>
   <div class="media-wrapper">
-    
+
 
 <form action="contact.php" method="post">
 <p> Name: *</p>
@@ -58,7 +58,7 @@ if($_POST['formSubmit'] == "Submit")
 <p> Subject:* </p>
 <input type="text" name="subject" maxlength="50" required/><br/>
 <p> Message:* </p>
-<textarea type="text" name="message" required></textarea><br/>
+<textarea type="text" name="message" cols="40" rows="6" required></textarea><br/>
 <input type="submit" name="formSubmit"/><br/>
 </form>
     </div>

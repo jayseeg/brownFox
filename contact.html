@@ -12,7 +12,7 @@
  	<body><div class="container">
   <div class="row">
     <nav role="navigation">
-      <span class="entypo-menu" id="toggle-menu"></span>  
+      <span class="entypo-menu" id="toggle-menu"></span>
     <div class="logo">
       <span class="entypo-s"></span>Tom Hagerman
     </div>
@@ -25,12 +25,22 @@
         <li><a href="contact.html">Contact</a></li>
         <li><a href="index.html">Home</a></li>
       </ul>
-    </nav>  
+    </nav>
   </div>
- 
+
 		<div class="media-wrapper">
-    
-  </div>
+      <form action="contact.php" method="post">
+        <p> Name: *</p>
+        <input type="text" name="contactName" maxlength="50" required/> <br/>
+        <p> Email for Reply: </p>
+        <input type="email" name="contactEmail" maxlength="50"/><br/>
+        <p> Subject:* </p>
+        <input type="text" name="subject" maxlength="50" required/><br/>
+        <p> Message:* </p>
+        <textarea type="text" cols="40" rows="6" name="message" required></textarea><br/>
+        <input type="submit" name="formSubmit"/><br/>
+      </form>
+    </div>
 		<footer class="media-wrapper">
   			<p class="copyright">&copy; 2016 Tom Hagerman</p>
 		</footer>
