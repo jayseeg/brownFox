@@ -53,16 +53,17 @@ if($_POST['formSubmit'] == "Submit")
 
 <form action="contact.php" method="post">
 <p> Name: *</p>
-<input type="text" name="contactName" maxlength="50" placeholder="Name" required/> <br/><br/>
+<input type="text" name="contactName" maxlength="50" placeholder="Name" required/> 
 <p> Email for Reply: </p>
-<input type="email" name="contactEmail" maxlength="50" placeholder="Email" /><br/><br/>
+<input type="email" name="contactEmail" maxlength="50" placeholder="Email" />
 <p> Subject:* </p>
-<input type="text" name="subject" maxlength="50" placeholder="Subject" required/><br/><br/>
+<input type="text" name="subject" maxlength="50" placeholder="Subject" required/>
 <p> Message:* </p>
 <textarea type="text" name="message" cols="42" rows="6" placeholder="Your Message" required></textarea><br/>
 <input type="submit" name="formSubmit"/><br/>
 </form>
-    </div>
+
+ </div>
 <br/>
 <footer class="media-wrapper">
       <p class="copyright">&copy; 2016 Tom Hagerman</p>
