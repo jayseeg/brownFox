@@ -12,3 +12,4 @@
 [Fri Aug 12 06:49:30.774495 2016] [:error] [pid 12394] [client 91.196.50.33:56310] script '/var/www/html/testproxy.php' not found or unable to stat
 [Fri Aug 12 09:47:51.036002 2016] [:error] [pid 12391] [client 91.196.50.33:55979] script '/var/www/html/testproxy.php' not found or unable to stat
 [Fri Aug 12 19:52:50.190405 2016] [:error] [pid 12422] [client 185.25.148.240:52925] script '/var/www/html/testproxy.php' not found or unable to stat
+[Sat Aug 13 06:59:40.513910 2016] [:error] [pid 16623] [client 208.90.57.196:39032] script '/var/www/html/media.php' not found or unable to stat
