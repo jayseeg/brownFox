@@ -49,11 +49,6 @@ p{
 
 }
 
-
-.media-wrapper {
-  margin: 0 auto;
-  max-width: 800px;
-}
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
