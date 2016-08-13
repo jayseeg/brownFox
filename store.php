@@ -1,6 +1,7 @@
 <!doctype html>
  <html>
         <head>
+<link rel="icon" href="favicon.png">
                 <title>Store @ Tom Hagerman</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <link rel="stylesheet" href="css/reset.css">

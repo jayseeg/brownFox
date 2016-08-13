@@ -1,6 +1,7 @@
 <!doctype html>
  <html>
   <head>
+<link rel="icon" href="favicon.png">
     <title>Media By Tom Hagerford</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">

@@ -18,6 +18,7 @@ if($_POST['formSubmit'] == "Submit")
 <!doctype html>
  <html>
  	<head>
+<link rel="icon" href="favicon.png">
 	<meta charset="UTF-8">
  		<title>Contact Tom Hagerman</title>
  		<meta name="viewport" content="width=device-width, initial-scale=1">

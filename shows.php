@@ -1,7 +1,8 @@
 <!doctype html>
  <html>
   <head>
-    <title>Shows With Tom Hagerman</title>
+    <link rel="icon" href="favicon.png">
+	<title>Shows With Tom Hagerman</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
