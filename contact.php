@@ -11,7 +11,7 @@ if($_POST['formSubmit'] == "Submit")
 	if ($_POST['message']) $message=htmlentities($_POST['message']); //Need to sanitize input here
         else $message = htmlentities("(No message given)"); //Also cmd escape this
 	exec("echo \"From: " . escapeshellarg($name) . ", " . escapeshellarg($email) . "\\nMessage:\\n" . escapeshellarg($message) . "\" | mail -s \"Contact Request from " . escapeshellarg($name) . ": Subject: " . escapeshellarg($subject) . "\" connor.bray.ricks@gmail.com");
-	header("Location: /staging/a.txt");
+	header("Location: thankyou.html");
         exit;
 }
 ?>
