@@ -24,15 +24,19 @@ if($_POST['formSubmit'] == "Submit")
 
 <form action="storeaddozKi587ZuLBRbkkip4pF8PcECk6etirL2UstFSdbljtw5YpMnlmDMOEOlT3G6nr2MieU9EpzwOr4Vm9IcLZZjjMA1DH5ljS4TuRENNw8wYrXmTDDMiAozgOpcl4XNsCfYukiVpToIlj9mFNbeizK280sQQ54pkNfiOZ8JqExbkgQdXrL2u7ceDnmiC3e0FFxnO4hWhYMIMA9h0S3yNduuHtKBUycWrH6jvTgePQx.php" method="post">
 <?php
-$toAdd = 1;
-if($_GET['n']) $toAdd=$_GET['n'];
+$toAdd = 3;
+if($_GET['n']) $toAdd=$_GET['n']*3;
 $i = $toAdd-1;
 while($i>=0) {
 ?>
-<textarea name="<?=$i?>"></textarea> <br/>
-
+<p>Store URL:</p>
+<input type="url" name="<?=$i?>" maxlength="500" placeholder="URL" required/> <br/>
+<p>Image To Display:(URL or local link)</p>
+<input type="text" name="<?=$i-1?>" maxlength="500" placeholder="IMG Ling" required/> <br/>
+<p>Product Title</p>
+<input type="text" name="<?=$i-2?>" maxlength="50" placeholder="Title" required/> <br/>
 <?php
-$i--;
+$i-=3;
 }
 ?>
 <input type="number" name="n" value="<?=$toAdd?>" hidden="1"/>
